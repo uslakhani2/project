@@ -2,9 +2,9 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 # ---- CONFIG ----
-solarwinds_url = "https://<your-solarwinds-server>:17778"
-username = "your_username"
-password = "your_password"
+solarwinds_url = ""
+username = ""
+password = ""
 
 # Sample SWQL query to test connectivity
 query = "SELECT NodeID, Caption FROM Orion.Nodes"
